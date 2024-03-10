@@ -669,8 +669,8 @@
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "10.2.3",
-            "version_normalized": "10.2.3.0",
+            "version": "10.2.4",
+            "version_normalized": "10.2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -692,6 +692,7 @@
             "require-dev": {
                 "composer/composer": "^1.8@stable"
             },
+            "time": "2024-01-26T14:59:30+00:00",
             "type": "composer-plugin",
             "extra": {
                 "class": "Drupal\\Composer\\Plugin\\Scaffold\\Plugin",
@@ -705,6 +706,7 @@
                     "Drupal\\Composer\\Plugin\\Scaffold\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -713,12 +715,15 @@
             "keywords": [
                 "drupal"
             ],
+            "support": {
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.2.4"
+            },
             "install-path": "../drupal/core-composer-scaffold"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "10.2.3",
-            "version_normalized": "10.2.3.0",
+            "version": "10.2.4",
+            "version_normalized": "10.2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -734,6 +739,7 @@
                 "composer-plugin-api": "^2",
                 "php": ">=7.3.0"
             },
+            "time": "2023-07-24T07:55:25+00:00",
             "type": "composer-plugin",
             "extra": {
                 "class": "Drupal\\Composer\\Plugin\\ProjectMessage\\MessagePlugin"
@@ -744,6 +750,7 @@
                     "Drupal\\Composer\\Plugin\\ProjectMessage\\": "."
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -752,6 +759,9 @@
             "keywords": [
                 "drupal"
             ],
+            "support": {
+                "source": "https://github.com/drupal/core-project-message/tree/10.2.4"
+            },
             "install-path": "../drupal/core-project-message"
         },
         {
@@ -838,8 +848,8 @@
         },
         {
             "name": "drupal/core-vendor-hardening",
-            "version": "10.2.3",
-            "version_normalized": "10.2.3.0",
+            "version": "10.2.4",
+            "version_normalized": "10.2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-vendor-hardening.git",
@@ -855,6 +865,7 @@
                 "composer-plugin-api": "^2",
                 "php": ">=7.3.0"
             },
+            "time": "2023-07-24T07:55:25+00:00",
             "type": "composer-plugin",
             "extra": {
                 "class": "Drupal\\Composer\\Plugin\\VendorHardening\\VendorHardeningPlugin"
@@ -865,6 +876,7 @@
                     "Drupal\\Composer\\Plugin\\VendorHardening\\": "."
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -873,7 +885,69 @@
             "keywords": [
                 "drupal"
             ],
+            "support": {
+                "source": "https://github.com/drupal/core-vendor-hardening/tree/10.2.4"
+            },
             "install-path": "../drupal/core-vendor-hardening"
+        },
+        {
+            "name": "drupal/views_kanban",
+            "version": "1.0.22",
+            "version_normalized": "1.0.22.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_kanban.git",
+                "reference": "1.0.22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_kanban-1.0.22.zip",
+                "reference": "1.0.22",
+                "shasum": "ef364dff6bcea9767a0fe57b0e890280d0f4097a"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.22",
+                    "datestamp": "1701434871",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "NGUYEN Bao",
+                    "homepage": "https://www.drupal.org/u/lazzyvn",
+                    "email": "n.bao@yahoo.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "lazzyvn",
+                    "homepage": "https://www.drupal.org/user/2896581"
+                }
+            ],
+            "description": "The plugin displays the kanban view",
+            "homepage": "https://www.drupal.org/project/views_kanban",
+            "keywords": [
+                "Drupal",
+                "kanban",
+                "view"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_kanban",
+                "issues": "https://www.drupal.org/project/issues/views_kanban"
+            },
+            "install-path": "../../modules/contrib/views_kanban"
         },
         {
             "name": "egulias/email-validator",
@@ -4908,5 +4982,7 @@
             ],
             "install-path": "../twig/twig"
         }
-    ]
+    ],
+    "dev": true,
+    "dev-package-names": []
 }

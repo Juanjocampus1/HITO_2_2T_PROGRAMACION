@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "acb35cb9188ed0c141d25c390a3f3472",
+    "content-hash": "e84964537d67d603834de80c4675d2eb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -492,6 +492,11 @@
         {
             "name": "drupal/core",
             "version": "10.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core.git",
+                "reference": "cc8c7952f7013795b735f5c15290e76937163bb7"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core/zipball/cc8c7952f7013795b735f5c15290e76937163bb7",
@@ -645,16 +650,16 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core.git",
-                "reference": "cc8c7952f7013795b735f5c15290e76937163bb7"
-            }
+            "description": "Drupal is an open source content management platform powering millions of websites and applications."
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "10.2.3",
+            "version": "10.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-composer-scaffold.git",
+                "reference": "63effa1bc644e80a269e8b4415e627491d26fd3f"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/63effa1bc644e80a269e8b4415e627491d26fd3f",
@@ -683,6 +688,7 @@
                     "Drupal\\Composer\\Plugin\\Scaffold\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -691,15 +697,19 @@
             "keywords": [
                 "drupal"
             ],
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-composer-scaffold.git",
-                "reference": "63effa1bc644e80a269e8b4415e627491d26fd3f"
-            }
+            "support": {
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.2.4"
+            },
+            "time": "2024-01-26T14:59:30+00:00"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "10.2.3",
+            "version": "10.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-project-message.git",
+                "reference": "d1da83722735cb0f7ccabf9fef7b5607b442c3a8"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-project-message/zipball/d1da83722735cb0f7ccabf9fef7b5607b442c3a8",
@@ -719,6 +729,7 @@
                     "Drupal\\Composer\\Plugin\\ProjectMessage\\": "."
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -727,15 +738,19 @@
             "keywords": [
                 "drupal"
             ],
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-project-message.git",
-                "reference": "d1da83722735cb0f7ccabf9fef7b5607b442c3a8"
-            }
+            "support": {
+                "source": "https://github.com/drupal/core-project-message/tree/10.2.4"
+            },
+            "time": "2023-07-24T07:55:25+00:00"
         },
         {
             "name": "drupal/core-recommended",
             "version": "10.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-recommended.git",
+                "reference": "ee5d148455ca5792108a1fd007ae162ea2ffe859"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-recommended/zipball/ee5d148455ca5792108a1fd007ae162ea2ffe859",
@@ -803,19 +818,24 @@
                 "webflo/drupal-core-strict": "*"
             },
             "type": "metapackage",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "ee5d148455ca5792108a1fd007ae162ea2ffe859"
-            }
+            "support": {
+                "source": "https://github.com/drupal/core-recommended/tree/10.2.3"
+            },
+            "time": "2024-02-07T22:44:48+00:00"
         },
         {
             "name": "drupal/core-vendor-hardening",
-            "version": "10.2.3",
+            "version": "10.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core-vendor-hardening.git",
+                "reference": "a524b4dd2480910a7b0dad20f2995daf204e8e56"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/drupal/core-vendor-hardening/zipball/a524b4dd2480910a7b0dad20f2995daf204e8e56",
@@ -835,6 +855,7 @@
                     "Drupal\\Composer\\Plugin\\VendorHardening\\": "."
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -843,10 +864,65 @@
             "keywords": [
                 "drupal"
             ],
+            "support": {
+                "source": "https://github.com/drupal/core-vendor-hardening/tree/10.2.4"
+            },
+            "time": "2023-07-24T07:55:25+00:00"
+        },
+        {
+            "name": "drupal/views_kanban",
+            "version": "1.0.22",
             "source": {
                 "type": "git",
-                "url": "https://github.com/drupal/core-vendor-hardening.git",
-                "reference": "a524b4dd2480910a7b0dad20f2995daf204e8e56"
+                "url": "https://git.drupalcode.org/project/views_kanban.git",
+                "reference": "1.0.22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_kanban-1.0.22.zip",
+                "reference": "1.0.22",
+                "shasum": "ef364dff6bcea9767a0fe57b0e890280d0f4097a"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.22",
+                    "datestamp": "1701434871",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "NGUYEN Bao",
+                    "homepage": "https://www.drupal.org/u/lazzyvn",
+                    "email": "n.bao@yahoo.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "lazzyvn",
+                    "homepage": "https://www.drupal.org/user/2896581"
+                }
+            ],
+            "description": "The plugin displays the kanban view",
+            "homepage": "https://www.drupal.org/project/views_kanban",
+            "keywords": [
+                "Drupal",
+                "kanban",
+                "view"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_kanban",
+                "issues": "https://www.drupal.org/project/issues/views_kanban"
             }
         },
         {
@@ -4735,8 +4811,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "platform-overrides": {
-        "php": "8.1.0"
-    },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
